@@ -6,14 +6,34 @@
 .container {
     height:100vh;
     width:100%;
-}
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/coffee.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family:Arial, Helvetica, sans-serif;
+}   
 .nav-bar{
     display:flex;
     align-items:center;
     justify-content: space-between;
-    padding:30px 80px;
+    padding: 30px 80px;
 }
-    
+.nav-bar .title{
+    color:#fff;
+    font-size:67px;
+}
+span{
+    color:crimson;
+}
+.menu li{
+    list-style:none;
+    display:inline-block;
+    }
+    .menu li a{
+        text-decoration:none;
+        color:#fff;
+    }
+
+
 
 
 
