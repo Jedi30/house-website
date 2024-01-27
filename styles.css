@@ -21,6 +21,7 @@
     color:#fff;
     font-size:67px;
     font-weight:600;
+    cursor:pointer;
 }
 span{
     color:crimson;
@@ -38,7 +39,7 @@ span{
     display:inline-block;
     }
     .menu li a{
-        list-style: :none;
+        list-style :none;
         display:inline-block;
     }
     .menu li a {
@@ -46,12 +47,12 @@ span{
         color:#fff;
         font-size:27px;
         font-weight:600;
-        transition:2s ease;
+        transition:.2s ease;
         margin-left: 25px;
     }
     .menu li a:hover{
         color:crimson;
-        padding:10px 20px;
+        padding:10px 10px;
         border:2px solid #fff;
     }
     .home{
@@ -72,12 +73,17 @@ span{
         height:40px;
         color:#fff;
         background:crimson;
+        font-size:22px;
         padding:5px 30px;
         margin-top:20px;
         border:none;
         border-radius:5px;
         transition:.4s ease;
         cursor:pointer;
+    }
+    .home button:hover{
+        background:none;
+        border:2px solid crimson;
     }
 
 
